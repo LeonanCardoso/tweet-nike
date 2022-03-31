@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-tweet-nike {
+    width: 591px;
+    height: 161px;
+    display: flex;
+    border: 1px solid #DADDDF;
+}
+
+.img-nike {
+    margin: 17px 12px 96px 17px;
+    width: 48px;
+    height: 48px;
+}
+
+.tweet-header {
+    display: flex;
+    margin: 17px 0 0 0;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #0F1419;
+}
+
+.verify-icon {
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.verify-icon2 {
+    margin-top: 6.33px;
+    margin-left: 6.33px;
+    margin-right: 9.33px;
+    width: 8.33px;
+    height: 6.5px;
+    position: absolute;
+}
+
+.img-merge {
+    display: flex;
+}
+
+.user-nike, .tweet-date {
+    color: #536471;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+
+}
+
+.dot {
+    line-height: 17.58px;
+    size: 15px;
+    margin-bottom: 3px;
+}
+
+.tweet-text {
+    margin-right: 77px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    color: #0F1419;
+    width: 430px;
+    height: 72px;
+}
+
+
+.tweet-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 98px;
+    margin-top: 9px;
+    margin-bottom: 19.51px;
+}
+
+.numbers-footer {
+    color: #536471;
+    margin-right: 47px;
+    font-size: 15px;
+}
+
+
+.comment {
+    width: 15px;
+    height: 13.49px;
+}
+
+.retweet {
+    width: 15px;
+    height: 15px;
+}
+
+.favorite {
+    width: 15px;
+    height: 13.08px;
+}
+
+.share {
+    width: 13px;
+    height: 14.44px;
+}
